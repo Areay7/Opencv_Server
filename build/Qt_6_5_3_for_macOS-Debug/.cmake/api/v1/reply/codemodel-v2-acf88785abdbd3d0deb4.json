@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f28bf8af5c601f9b569f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Opencv_Server",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Opencv_Server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Opencv_Server-Debug-0710c5086d686fbcc7bb.json",
+					"name" : "Opencv_Server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Opencv_Server_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Opencv_Server_autogen-Debug-e27db651b73f3a1eed75.json",
+					"name" : "Opencv_Server_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Opencv_Server_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Opencv_Server_autogen_timestamp_deps-Debug-80f84fc2ac438951fd6f.json",
+					"name" : "Opencv_Server_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/areay7/QtCode/Qt_Sql/Opencv_Server/build/Qt_6_5_3_for_macOS-Debug",
+		"source" : "/Users/areay7/QtCode/Qt_Sql/Opencv_Server"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,20 @@
+# ninja log v5
+6	130	1722743470031309000	Opencv_Server_autogen/timestamp	fbdf75d56005711e
+6	130	1722743470031309000	/Users/areay7/QtCode/Qt_Sql/Opencv_Server/build/Qt_6_5_3_for_macOS-Debug/Opencv_Server_autogen/timestamp	fbdf75d56005711e
+6	130	1722743470031309000	/Users/areay7/QtCode/Qt_Sql/Opencv_Server/build/Qt_6_5_3_for_macOS-Debug/Opencv_Server_autogen/mocs_compilation.cpp	fbdf75d56005711e
+130	779	1722743470682410854	CMakeFiles/Opencv_Server.dir/Opencv_Server_autogen/mocs_compilation.cpp.o	2406c62a74ef9ffa
+6	130	1722743470031309000	Opencv_Server_autogen/mocs_compilation.cpp	fbdf75d56005711e
+131	782	1722743470685987798	CMakeFiles/Opencv_Server.dir/main.cpp.o	f054dd8a87e11d84
+9	13	0	clean	aadbd85f6fc575ba
+0	9	0	CMakeFiles/clean.additional	b52873e8e9843f60
+131	817	1722743470720756854	CMakeFiles/Opencv_Server.dir/mainwindow.cpp.o	e31cf9148b1ee102
+817	916	1722743470820677641	Opencv_Server.app/Contents/MacOS/Opencv_Server	3981b44a3510f10d
+6	185	1722744103447985000	Opencv_Server_autogen/timestamp	fbdf75d56005711e
+6	185	1722744103447985000	Opencv_Server_autogen/mocs_compilation.cpp	fbdf75d56005711e
+6	185	1722744103447985000	/Users/areay7/QtCode/Qt_Sql/Opencv_Server/build/Qt_6_5_3_for_macOS-Debug/Opencv_Server_autogen/timestamp	fbdf75d56005711e
+6	185	1722744103447985000	/Users/areay7/QtCode/Qt_Sql/Opencv_Server/build/Qt_6_5_3_for_macOS-Debug/Opencv_Server_autogen/mocs_compilation.cpp	fbdf75d56005711e
+185	771	1722744104035626596	CMakeFiles/Opencv_Server.dir/qfaceobject.cpp.o	ff56723df59b1818
+185	903	1722744104167135111	CMakeFiles/Opencv_Server.dir/Opencv_Server_autogen/mocs_compilation.cpp.o	664036b204233d2c
+185	905	1722744104169940993	CMakeFiles/Opencv_Server.dir/main.cpp.o	c4db1ca1d2f16357
+185	940	1722744104203859031	CMakeFiles/Opencv_Server.dir/mainwindow.cpp.o	7068f09c8bda400
+940	1104	1722744104370970371	Opencv_Server.app/Contents/MacOS/Opencv_Server	e30cafb152433a6c

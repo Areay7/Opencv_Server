@@ -1,0 +1,3 @@
+/Users/areay7/QtCode/Qt_Sql/Opencv_Server/build/Qt_6_5_3_for_macOS-RelWithDebInfo/CMakeFiles/CMakeScratch/TryCompile-sE2ivj/CMakeFiles/cmTC_23998.dir
+/Users/areay7/QtCode/Qt_Sql/Opencv_Server/build/Qt_6_5_3_for_macOS-RelWithDebInfo/CMakeFiles/CMakeScratch/TryCompile-sE2ivj/CMakeFiles/edit_cache.dir
+/Users/areay7/QtCode/Qt_Sql/Opencv_Server/build/Qt_6_5_3_for_macOS-RelWithDebInfo/CMakeFiles/CMakeScratch/TryCompile-sE2ivj/CMakeFiles/rebuild_cache.dir

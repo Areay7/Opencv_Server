@@ -12,6 +12,10 @@ MainWindow::MainWindow(QWidget *parent)
     connect(&mserver, &QTcpServer::newConnection, this, &MainWindow::accept_client);
 
     bsize = 0;
+
+    // 给 sql 模型绑定表格
+    model.setTable("employee");
+
 }
 
 MainWindow::~MainWindow()
@@ -66,5 +70,37 @@ void MainWindow::read_data()
     mmp.loadFromData(data, "jpg");
     mmp = mmp.scaled(ui->picLb->size());
     ui->picLb->setPixmap(mmp);
+
+    // 识别人脸
+    Mat faceImage;
+    std::vector<uchar> decode;
+    decode.resize(data.size());
+    memcpy(decode.data(), data.data(), data.size());
+
+    faceImage = imdecode(decode, IMREAD_COLOR);
+    int faceid = fobj.face_query(faceImage);
+
+    // qDebug() << "faceid : " << faceid;
+
+    // 从数据库中查询 faceid
+    // 给模型设置过滤器
+    model.setFilter(QString("FaceID=%1").arg(faceid));
+    // 查询
+    model.select();
+    // 判断是否查询到数据
+    if(model.rowCount() == 1)
+    {
+        // 学号，姓名，部门，时间
+        // {EmployeeID:%1, name:%2, department:物联网工程, time:%3}
+        QSqlRecord record = model.record(0);
+        QString sdmsg = QString("{\"EmployeeID\":\"%1\", \"name\":\"%2\", \"department\":\"物联网工程\", \"time\":\"%3\"}")
+                            .arg(record.value("EmployeeID").toString()).arg(record.value("name").toString())
+                            .arg(QDateTime::currentDateTime().toString("yyyy-MM-dd hh:mm:ss"));
+
+        // 把打包好的数据发送给客户端
+        msocket->write(sdmsg.toUtf8());
+
+        // 把数据写入数据库 - 考勤表
+    }
 
 }

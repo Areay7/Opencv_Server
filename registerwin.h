@@ -6,8 +6,11 @@
 #include <QSqlTableModel>
 #include <QSqlRecord>
 #include <QMessageBox>
+#include <opencv2/opencv.hpp>
 
 #include "QFaceObject.h"
+
+using namespace cv;
 
 
 namespace Ui {
@@ -22,6 +25,8 @@ public:
     explicit RegisterWin(QWidget *parent = nullptr);
     ~RegisterWin();
 
+    void timerEvent(QTimerEvent *event);
+
 private slots:
     void on_resetBtn_clicked();
 
@@ -29,8 +34,16 @@ private slots:
 
     void on_registerBtn_clicked();
 
+    void on_videoSwitchBtn_clicked();
+
+    void on_cameraBtn_clicked();
+
 private:
     Ui::RegisterWin *ui;
+    int timerid;
+
+    VideoCapture cap;
+    Mat image;
 };
 
 #endif // REGISTERWIN_H

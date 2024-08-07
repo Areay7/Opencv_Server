@@ -9,6 +9,9 @@ QFaceObject::QFaceObject(QObject *parent)
     seeta::ModelSetting FRmode("/Users/areay7/Opencv/model/fr_2_10.dat", seeta::ModelSetting::CPU,0);
 
     this->fengineptr = new seeta::FaceEngine(FDmode, PDmode, FRmode);
+
+    // 导入已经有的人脸数据库
+    this->fengineptr->Load("./face.db");
 }
 
 QFaceObject::~QFaceObject()

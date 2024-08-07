@@ -1,0 +1,955 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Opencv_Server.app/Contents/MacOS/Opencv_Server"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"_qt_internal_create_executable",
+			"qt6_add_executable",
+			"qt_add_executable",
+			"install",
+			"link_directories",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"find_dependency",
+			"_qt_internal_find_third_party_dependencies",
+			"_qt_internal_find_qt_dependencies",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"CMakeLists.txt",
+			"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake",
+			"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
+			"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6/Qt6Config.cmake",
+			"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6/FindWrapOpenGL.cmake",
+			"/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+			"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake",
+			"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
+			"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
+			"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
+			"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
+			"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Core/Qt6CoreConfig.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 741,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 549,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 588,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 86,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 72,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"file" : 4,
+				"parent" : 8
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 157,
+				"parent" : 9
+			},
+			{
+				"file" : 3,
+				"parent" : 10
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 52,
+				"parent" : 11
+			},
+			{
+				"file" : 2,
+				"parent" : 12
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 62,
+				"parent" : 13
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 40,
+				"parent" : 11
+			},
+			{
+				"file" : 10,
+				"parent" : 15
+			},
+			{
+				"command" : 12,
+				"file" : 10,
+				"line" : 39,
+				"parent" : 16
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 111,
+				"parent" : 17
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 76,
+				"parent" : 18
+			},
+			{
+				"file" : 9,
+				"parent" : 19
+			},
+			{
+				"command" : 8,
+				"file" : 9,
+				"line" : 40,
+				"parent" : 20
+			},
+			{
+				"file" : 8,
+				"parent" : 21
+			},
+			{
+				"command" : 11,
+				"file" : 8,
+				"line" : 30,
+				"parent" : 22
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 36,
+				"parent" : 23
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 76,
+				"parent" : 24
+			},
+			{
+				"file" : 5,
+				"parent" : 25
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 48,
+				"parent" : 26
+			},
+			{
+				"command" : 8,
+				"file" : 9,
+				"line" : 52,
+				"parent" : 20
+			},
+			{
+				"file" : 11,
+				"parent" : 28
+			},
+			{
+				"command" : 7,
+				"file" : 11,
+				"line" : 62,
+				"parent" : 29
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 550,
+				"parent" : 2
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 111,
+				"parent" : 17
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 76,
+				"parent" : 32
+			},
+			{
+				"file" : 13,
+				"parent" : 33
+			},
+			{
+				"command" : 8,
+				"file" : 13,
+				"line" : 52,
+				"parent" : 34
+			},
+			{
+				"file" : 12,
+				"parent" : 35
+			},
+			{
+				"command" : 7,
+				"file" : 12,
+				"line" : 62,
+				"parent" : 36
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 20,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 31,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_SQL_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_WIDGETS_LIB"
+				}
+			],
+			"frameworks" : 
+			[
+				{
+					"backtrace" : 31,
+					"isSystem" : true,
+					"path" : "/Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/Users/areay7/Qt/6.5.3/macos/lib/QtWidgets.framework"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/Users/areay7/Qt/6.5.3/macos/lib/QtNetwork.framework"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/Users/areay7/QtCode/Qt_Sql/Opencv_Server/build/Qt_6_5_3_for_macOS-Debug/Opencv_Server_autogen/include"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "/Users/areay7/Opencv/SeetaFace2/FaceDetector/include"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "/Users/areay7/Opencv/SeetaFace2/FaceLandmarker/include"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "/Users/areay7/Opencv/SeetaFace2/FaceRecognizer/include"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "/Users/areay7/Opencv/SeetaFace2/FaceTracker/include"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "/Users/areay7/Opencv/SeetaFace2/FaceDatabase/include"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "/Users/areay7/Opencv/SeetaFace2/QualityAssessor/include"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "/Users/areay7/Opencv/SeetaFace2/SeetaNet/include"
+				},
+				{
+					"backtrace" : 31,
+					"isSystem" : true,
+					"path" : "/Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Headers"
+				},
+				{
+					"backtrace" : 31,
+					"isSystem" : true,
+					"path" : "/Users/areay7/Qt/6.5.3/macos/mkspecs/macx-clang"
+				},
+				{
+					"backtrace" : 31,
+					"isSystem" : true,
+					"path" : "/Users/areay7/Qt/6.5.3/macos/include"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/Users/areay7/Qt/6.5.3/macos/lib/QtWidgets.framework/Headers"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Headers"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/Users/areay7/Qt/6.5.3/macos/lib/QtNetwork.framework/Headers"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework/Headers"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/usr/local/include/opencv4"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					31,
+					31,
+					7
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				6,
+				8
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "Opencv_Server_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Opencv_Server_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "Opencv_Server::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "."
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-DQT_QML_DEBUG -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-F/Users/areay7/Qt/6.5.3/macos/lib",
+				"role" : "frameworkPath"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-L/Users/areay7/Opencv/SeetaFace2/build/bin",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/Users/areay7/Opencv/SeetaFace2/build/bin -Wl,-rpath,/Users/areay7/Qt/6.5.3/macos/lib -Wl,-rpath,/usr/local/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/Users/areay7/Qt/6.5.3/macos/lib/QtWidgets.framework/Versions/A/QtWidgets",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/Users/areay7/Qt/6.5.3/macos/lib/QtNetwork.framework/Versions/A/QtNetwork",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework/Versions/A/QtSql",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_gapi.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_stitching.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_aruco.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_bgsegm.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_bioinspired.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_ccalib.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_dnn_objdetect.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_dnn_superres.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_dpm.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_face.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_freetype.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_fuzzy.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_hfs.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_img_hash.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_intensity_transform.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_line_descriptor.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_mcc.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_quality.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_rapid.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_reg.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_rgbd.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_saliency.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_signal.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_stereo.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_structured_light.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_superres.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_surface_matching.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_tracking.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_videostab.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_wechat_qrcode.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_xfeatures2d.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_xobjdetect.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_xphoto.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-lSeetaFaceDetector",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-lSeetaFaceLandmarker",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-lSeetaFaceRecognizer",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-lSeetaFaceTracker",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-lSeetaNet",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-lSeetaQualityAssessor",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "/Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/QtGui",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "-framework OpenGL",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-framework AGL",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 30,
+				"fragment" : "-framework AppKit",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 30,
+				"fragment" : "-framework ImageIO",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 30,
+				"fragment" : "-framework Metal",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "/Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/QtCore",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "-framework IOKit",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "-framework DiskArbitration",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_shape.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_highgui.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_datasets.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_plot.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_text.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_ml.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_phase_unwrapping.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_optflow.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_ximgproc.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_video.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_videoio.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_imgcodecs.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_objdetect.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_calib3d.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_dnn.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_features2d.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_flann.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_photo.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_imgproc.4.10.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libopencv_core.4.10.0.dylib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Opencv_Server",
+	"nameOnDisk" : "Opencv_Server",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				6,
+				8
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3,
+				5,
+				7,
+				10,
+				11
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				4,
+				9,
+				12
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				13
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_5_3_for_macOS-Debug/Opencv_Server_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "mainwindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "mainwindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "mainwindow.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qfaceobject.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "qfaceobject.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "registerwin.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "registerwin.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "registerwin.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_5_3_for_macOS-Debug/Opencv_Server_autogen/include/ui_mainwindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_5_3_for_macOS-Debug/Opencv_Server_autogen/include/ui_registerwin.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_5_3_for_macOS-Debug/Opencv_Server_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_5_3_for_macOS-Debug/Opencv_Server_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "EXECUTABLE"
+}

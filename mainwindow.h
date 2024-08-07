@@ -5,6 +5,11 @@
 #include <QTcpSocket>
 #include <QTcpServer>
 #include <QDebug>
+#include <QSqlTableModel>
+#include <QSqlRecord>
+#include <QDateTime>
+
+#include "qfaceobject.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -30,6 +35,10 @@ private:
     QTcpServer mserver;
     QTcpSocket *msocket;
     quint64 bsize;
+
+    QFaceObject fobj;
+
+    QSqlTableModel model;
 
 };
 #endif // MAINWINDOW_H

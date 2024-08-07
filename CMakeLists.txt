@@ -48,6 +48,9 @@ set(PROJECT_SOURCES
     qfaceobject.cpp
 )
 
+# 设置 Info.plist 文件路径
+set(MACOSX_BUNDLE_INFO_PLIST ${CMAKE_SOURCE_DIR}/Info.plist.in)
+
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Opencv_Server
         MANUAL_FINALIZATION
@@ -77,6 +80,7 @@ set_target_properties(Opencv_Server PROPERTIES
     MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
     MACOSX_BUNDLE TRUE
     WIN32_EXECUTABLE TRUE
+    MACOSX_BUNDLE_INFO_PLIST ${MACOSX_BUNDLE_INFO_PLIST}
 )
 
 include(GNUInstallDirs)

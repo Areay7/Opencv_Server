@@ -50,7 +50,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 40,
+				"line" : 52,
 				"parent" : 0
 			},
 			{
@@ -74,19 +74,19 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 81,
+				"line" : 82,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 20,
+				"line" : 31,
 				"parent" : 0
 			},
 			{
 				"command" : 6,
 				"file" : 1,
-				"line" : 63,
+				"line" : 68,
 				"parent" : 0
 			},
 			{
@@ -252,7 +252,7 @@
 			{
 				"command" : 13,
 				"file" : 1,
-				"line" : 19,
+				"line" : 20,
 				"parent" : 0
 			}
 		]
@@ -282,6 +282,10 @@
 				},
 				{
 					"backtrace" : 7,
+					"define" : "QT_SQL_LIB"
+				},
+				{
+					"backtrace" : 7,
 					"define" : "QT_WIDGETS_LIB"
 				}
 			],
@@ -306,6 +310,11 @@
 					"backtrace" : 7,
 					"isSystem" : true,
 					"path" : "/Users/areay7/Qt/6.5.3/macos/lib/QtNetwork.framework"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework"
 				}
 			],
 			"includes" : 
@@ -316,7 +325,31 @@
 				},
 				{
 					"backtrace" : 38,
-					"path" : "/Users/areay7/Opencv/SeetaFace2/FaceDetector/include/seeta"
+					"path" : "/Users/areay7/Opencv/SeetaFace2/FaceDetector/include"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "/Users/areay7/Opencv/SeetaFace2/FaceLandmarker/include"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "/Users/areay7/Opencv/SeetaFace2/FaceRecognizer/include"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "/Users/areay7/Opencv/SeetaFace2/FaceTracker/include"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "/Users/areay7/Opencv/SeetaFace2/FaceDatabase/include"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "/Users/areay7/Opencv/SeetaFace2/QualityAssessor/include"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "/Users/areay7/Opencv/SeetaFace2/SeetaNet/include"
 				},
 				{
 					"backtrace" : 31,
@@ -347,6 +380,11 @@
 					"backtrace" : 7,
 					"isSystem" : true,
 					"path" : "/Users/areay7/Qt/6.5.3/macos/lib/QtNetwork.framework/Headers"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework/Headers"
 				},
 				{
 					"backtrace" : 7,
@@ -432,6 +470,11 @@
 			{
 				"backtrace" : 7,
 				"fragment" : "/Users/areay7/Qt/6.5.3/macos/lib/QtNetwork.framework/Versions/A/QtNetwork",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework/Versions/A/QtSql",
 				"role" : "libraries"
 			},
 			{

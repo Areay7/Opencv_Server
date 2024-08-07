@@ -9,18 +9,28 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets Network)
-find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets Network)
+find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets Network Sql)
+find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets Network Sql)
 
 # Find OpenCV
 find_package(OpenCV REQUIRED)
 
-# Include directories and link libraries for SeetaFace2
-include_directories(/Users/areay7/Opencv/SeetaFace2/FaceDetector/include/seeta)
+# Include directories for SeetaFace2
+# Include directories for SeetaFace2
+include_directories(
+    /Users/areay7/Opencv/SeetaFace2/FaceDetector/include
+    /Users/areay7/Opencv/SeetaFace2/FaceLandmarker/include
+    /Users/areay7/Opencv/SeetaFace2/FaceRecognizer/include
+    /Users/areay7/Opencv/SeetaFace2/FaceTracker/include
+    /Users/areay7/Opencv/SeetaFace2/FaceDatabase/include
+    /Users/areay7/Opencv/SeetaFace2/QualityAssessor/include
+    /Users/areay7/Opencv/SeetaFace2/SeetaNet/include
+)
+
+# Link directories for SeetaFace2
 link_directories(/Users/areay7/Opencv/SeetaFace2/build/bin)
 
-file(GLOB_RECURSE HEAD_FILE /Users/areay7/Opencv/SeetaFace2/*.h)
-
+# List of SeetaFace2 libraries
 set(DyLIB
     SeetaFaceDetector
     SeetaFaceLandmarker
@@ -30,29 +40,25 @@ set(DyLIB
     SeetaQualityAssessor)
 
 set(PROJECT_SOURCES
-        main.cpp
-        mainwindow.cpp
-        mainwindow.h
-        mainwindow.ui
+    main.cpp
+    mainwindow.cpp
+    mainwindow.h
+    mainwindow.ui
+    qfaceobject.h
+    qfaceobject.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Opencv_Server
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-        qfaceobject.h qfaceobject.cpp
+        registerwin.h registerwin.cpp registerwin.ui
     )
-# Define target properties for Android with Qt 6 as:
-#    set_property(TARGET Opencv_Server APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
-#                 ${CMAKE_CURRENT_SOURCE_DIR}/android)
-# For more information, see https://doc.qt.io/qt-6/qt-add-executable.html#target-creation
 else()
     if(ANDROID)
         add_library(Opencv_Server SHARED
             ${PROJECT_SOURCES}
         )
-# Define properties for Android with Qt 5 after find_package() calls as:
-#    set(ANDROID_PACKAGE_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/android")
     else()
         add_executable(Opencv_Server
             ${PROJECT_SOURCES}
@@ -60,12 +66,8 @@ else()
     endif()
 endif()
 
-target_link_libraries(Opencv_Server PRIVATE Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::Network ${OpenCV_LIBS}
-${DyLIB} )
+target_link_libraries(Opencv_Server PRIVATE Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::Network Qt${QT_VERSION_MAJOR}::Sql ${OpenCV_LIBS} ${DyLIB})
 
-# Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
-# If you are developing for iOS or macOS you should consider setting an
-# explicit, fixed bundle identifier manually though.
 if(${QT_VERSION} VERSION_LESS 6.1.0)
   set(BUNDLE_ID_OPTION MACOSX_BUNDLE_GUI_IDENTIFIER com.example.Opencv_Server)
 endif()

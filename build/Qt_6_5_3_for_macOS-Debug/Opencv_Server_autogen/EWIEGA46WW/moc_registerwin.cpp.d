@@ -1,4 +1,4 @@
-/Users/areay7/QtCode/Qt_Sql/Opencv_Server/build/Qt_6_5_3_for_macOS-Debug/Opencv_Server_autogen/EWIEGA46WW/moc_qfaceobject.cpp: /Users/areay7/QtCode/Qt_Sql/Opencv_Server/qfaceobject.h \
+/Users/areay7/QtCode/Qt_Sql/Opencv_Server/build/Qt_6_5_3_for_macOS-Debug/Opencv_Server_autogen/EWIEGA46WW/moc_registerwin.cpp: /Users/areay7/QtCode/Qt_Sql/Opencv_Server/registerwin.h \
   /Users/areay7/QtCode/Qt_Sql/Opencv_Server/build/Qt_6_5_3_for_macOS-Debug/Opencv_Server_autogen/moc_predefs.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
@@ -109,7 +109,9 @@
   /Users/areay7/Opencv/SeetaFace2/FaceRecognizer/include/seeta/Stream.h \
   /Users/areay7/Opencv/SeetaFace2/FaceRecognizer/include/seeta/Struct.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/QObject \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qabstractitemmodel.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qalgorithms.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qanystringview.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qarraydata.h \
@@ -124,6 +126,7 @@
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayview.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qcalendar.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qchar.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qcompare.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h \
@@ -133,9 +136,16 @@
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerfwd.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerinfo.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qcontainertools_impl.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qdatetime.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qdir.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qfile.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qfiledevice.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qfileinfo.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qflags.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qfloat16.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qforeach.h \
@@ -143,13 +153,19 @@
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qgenericatomic.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qglobal.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qline.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qlist.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qlocale.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qlogging.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qmalloc.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qmap.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qmargins.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qmath.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qmetacontainer.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qmetatype.h \
@@ -162,13 +178,22 @@
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs_impl.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qoverload.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qpair.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qpoint.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qrect.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qrefcount.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qscopeguard.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qset.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata_impl.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer_impl.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qsize.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qstring.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qstringalgorithms.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qstringbuilder.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qstringconverter_base.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qstringfwd.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qstringlist.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qstringliteral.h \
@@ -185,6 +210,7 @@
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qtcoreexports.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qtdeprecationmarkers.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qtnoop.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qtpreprocessorsupport.h \
@@ -195,9 +221,57 @@
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qtversionchecks.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qtypes.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qbrush.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qcolor.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qcursor.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qfont.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qfontinfo.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qfontmetrics.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qicon.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qimage.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qpolygon.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qregion.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qrgb.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework/Versions/A/Headers/QSqlRecord \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework/Versions/A/Headers/QSqlTableModel \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework/Versions/A/Headers/qsqldatabase.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework/Versions/A/Headers/qsqlquerymodel.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework/Versions/A/Headers/qsqlrecord.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework/Versions/A/Headers/qsqltablemodel.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework/Versions/A/Headers/qtsql-config.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework/Versions/A/Headers/qtsqlexports.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework/Versions/A/Headers/qtsqlglobal.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QFileDialog \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QMessageBox \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qfiledialog.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qmessagebox.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h \
+  /Users/areay7/QtCode/Qt_Sql/Opencv_Server/qfaceobject.h \
   /usr/local/include/opencv4/opencv2/calib3d.hpp \
   /usr/local/include/opencv4/opencv2/core.hpp \
   /usr/local/include/opencv4/opencv2/core/affine.hpp \

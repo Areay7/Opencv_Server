@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-f28bf8af5c601f9b569f.json",
+					"jsonFile" : "directory-.-Debug-825d30ee4f17d95aab21.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Opencv_Server::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Opencv_Server-Debug-0710c5086d686fbcc7bb.json",
+					"jsonFile" : "target-Opencv_Server-Debug-c83d9e8a512d67d76a5f.json",
 					"name" : "Opencv_Server",
 					"projectIndex" : 0
 				},

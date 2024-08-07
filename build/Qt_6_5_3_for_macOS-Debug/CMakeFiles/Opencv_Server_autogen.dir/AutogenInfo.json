@@ -353,6 +353,36 @@
 		"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets.cmake",
 		"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets-relwithdebinfo.cmake",
 		"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginAdditionalTargetInfo.cmake",
+		"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Sql/Qt6SqlConfigVersion.cmake",
+		"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Sql/Qt6SqlConfigVersionImpl.cmake",
+		"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Sql/Qt6SqlConfig.cmake",
+		"/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Sql/Qt6SqlDependencies.cmake",
+		"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Sql/Qt6SqlTargets.cmake",
+		"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Sql/Qt6SqlTargets-relwithdebinfo.cmake",
+		"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Sql/Qt6SqlAdditionalTargetInfo.cmake",
+		"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Sql/Qt6SqlVersionlessTargets.cmake",
+		"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Sql/Qt6SqlPlugins.cmake",
+		"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Sql/Qt6QMYSQLDriverPluginConfig.cmake",
+		"/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Sql/Qt6QMYSQLDriverPluginTargets.cmake",
+		"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Sql/Qt6QMYSQLDriverPluginTargets-relwithdebinfo.cmake",
+		"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Sql/Qt6QMYSQLDriverPluginAdditionalTargetInfo.cmake",
+		"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginConfig.cmake",
+		"/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginTargets.cmake",
+		"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginTargets-relwithdebinfo.cmake",
+		"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginAdditionalTargetInfo.cmake",
+		"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginConfig.cmake",
+		"/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginTargets.cmake",
+		"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginTargets-relwithdebinfo.cmake",
+		"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginAdditionalTargetInfo.cmake",
+		"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginConfig.cmake",
+		"/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginTargets.cmake",
+		"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginTargets-relwithdebinfo.cmake",
+		"/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginAdditionalTargetInfo.cmake",
 		"/usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake",
 		"/usr/local/lib/cmake/opencv4/OpenCVConfig.cmake",
 		"/Applications/CMake.app/Contents/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
@@ -378,12 +408,25 @@
 			"MU",
 			"EWIEGA46WW/moc_qfaceobject.cpp",
 			null
+		],
+		[
+			"/Users/areay7/QtCode/Qt_Sql/Opencv_Server/registerwin.h",
+			"MU",
+			"EWIEGA46WW/moc_registerwin.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/Users/areay7/QtCode/Qt_Sql/Opencv_Server/build/Qt_6_5_3_for_macOS-Debug/Opencv_Server_autogen/include",
 	"MOC_COMPILATION_FILE" : "/Users/areay7/QtCode/Qt_Sql/Opencv_Server/build/Qt_6_5_3_for_macOS-Debug/Opencv_Server_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NETWORK_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_SQL_LIB",
+		"QT_WIDGETS_LIB"
+	],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -393,7 +436,13 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/Users/areay7/Opencv/SeetaFace2/FaceDetector/include/seeta",
+		"/Users/areay7/Opencv/SeetaFace2/FaceDetector/include",
+		"/Users/areay7/Opencv/SeetaFace2/FaceLandmarker/include",
+		"/Users/areay7/Opencv/SeetaFace2/FaceRecognizer/include",
+		"/Users/areay7/Opencv/SeetaFace2/FaceTracker/include",
+		"/Users/areay7/Opencv/SeetaFace2/FaceDatabase/include",
+		"/Users/areay7/Opencv/SeetaFace2/QualityAssessor/include",
+		"/Users/areay7/Opencv/SeetaFace2/SeetaNet/include",
 		"/Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Headers",
 		"/Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework",
 		"/Users/areay7/Qt/6.5.3/macos/mkspecs/macx-clang",
@@ -404,6 +453,8 @@
 		"/Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework",
 		"/Users/areay7/Qt/6.5.3/macos/lib/QtNetwork.framework/Headers",
 		"/Users/areay7/Qt/6.5.3/macos/lib/QtNetwork.framework",
+		"/Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework/Headers",
+		"/Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework",
 		"/usr/local/include/opencv4",
 		"/usr/include",
 		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include"
@@ -448,6 +499,11 @@
 		],
 		[
 			"/Users/areay7/QtCode/Qt_Sql/Opencv_Server/qfaceobject.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/areay7/QtCode/Qt_Sql/Opencv_Server/registerwin.cpp",
 			"MU",
 			null
 		]

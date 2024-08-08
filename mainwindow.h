@@ -8,6 +8,9 @@
 #include <QSqlTableModel>
 #include <QSqlRecord>
 #include <QDateTime>
+#include <QThread>
+#include <QSqlQuery>
+#include <QSqlError>
 
 #include "qfaceobject.h"
 
@@ -29,6 +32,10 @@ public:
 private slots:
     void accept_client();
     void read_data();
+    void recv_faceid(int64_t faceid);
+
+signals:
+    void query(Mat& image);
 
 private:
     Ui::MainWindow *ui;

@@ -50,6 +50,15 @@ int QFaceObject::face_query(Mat &faceImage)
     float similarity = 0;
     // 运算时间较久
     int64_t faceId = fengineptr->Query(simage, &similarity);
+    qDebug() << "查询相似度 : " << faceId  << " -> "<< similarity;
 
+    if(similarity > 0.7)
+    {
+        emit send_faceid(faceId);
+    }
+    else
+    {
+        emit send_faceid(-1);
+    }
     return faceId;
 }

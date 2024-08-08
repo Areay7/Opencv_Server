@@ -414,6 +414,12 @@
 			"MU",
 			"EWIEGA46WW/moc_registerwin.cpp",
 			null
+		],
+		[
+			"/Users/areay7/QtCode/Qt_Sql/Opencv_Server/selectwin.h",
+			"MU",
+			"EWIEGA46WW/moc_selectwin.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -443,6 +449,7 @@
 		"/Users/areay7/Opencv/SeetaFace2/FaceDatabase/include",
 		"/Users/areay7/Opencv/SeetaFace2/QualityAssessor/include",
 		"/Users/areay7/Opencv/SeetaFace2/SeetaNet/include",
+		"/Users/areay7/QtCode/Qt_Sql/Opencv_Server",
 		"/Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Headers",
 		"/Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework",
 		"/Users/areay7/Qt/6.5.3/macos/mkspecs/macx-clang",
@@ -506,7 +513,8 @@
 			"/Users/areay7/QtCode/Qt_Sql/Opencv_Server/registerwin.cpp",
 			"MU",
 			null
-		]
+		],
+		[ "/Users/areay7/QtCode/Qt_Sql/Opencv_Server/selectwin.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

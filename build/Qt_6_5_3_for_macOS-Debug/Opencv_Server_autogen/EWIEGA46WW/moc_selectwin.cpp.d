@@ -1,4 +1,4 @@
-/Users/areay7/QtCode/Qt_Sql/Opencv_Server/build/Qt_6_5_3_for_macOS-Debug/Opencv_Server_autogen/EWIEGA46WW/moc_qfaceobject.cpp: /Users/areay7/QtCode/Qt_Sql/Opencv_Server/qfaceobject.h \
+/Users/areay7/QtCode/Qt_Sql/Opencv_Server/build/Qt_6_5_3_for_macOS-Debug/Opencv_Server_autogen/EWIEGA46WW/moc_selectwin.cpp: /Users/areay7/QtCode/Qt_Sql/Opencv_Server/selectwin.h \
   /Users/areay7/QtCode/Qt_Sql/Opencv_Server/build/Qt_6_5_3_for_macOS-Debug/Opencv_Server_autogen/moc_predefs.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
@@ -25,7 +25,6 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/signal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/assert.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/float.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/libkern/arm/OSByteOrder.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -40,7 +39,6 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/malloc/_malloc.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/malloc/_malloc_type.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/malloc/_ptrcheck.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/math.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/stdint.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/stdio.h \
@@ -53,7 +51,6 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_clock_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_ct_rune_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_dev_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_errno_t.h \
@@ -76,8 +73,6 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigset_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_size_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_ssize_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_time_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_timespec.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_timeval.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int16_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int32_t.h \
@@ -96,22 +91,9 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/wait.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/time.h \
-  /Users/areay7/Opencv/SeetaFace2/FaceDetector/include/seeta/CFaceInfo.h \
-  /Users/areay7/Opencv/SeetaFace2/FaceDetector/include/seeta/CStruct.h \
-  /Users/areay7/Opencv/SeetaFace2/FaceDetector/include/seeta/FaceDetector.h \
-  /Users/areay7/Opencv/SeetaFace2/FaceDetector/include/seeta/FaceEngine.h \
-  /Users/areay7/Opencv/SeetaFace2/FaceDetector/include/seeta/Struct.h \
-  /Users/areay7/Opencv/SeetaFace2/FaceLandmarker/include/seeta/FaceLandmarker.h \
-  /Users/areay7/Opencv/SeetaFace2/FaceLandmarker/include/seeta/Struct.h \
-  /Users/areay7/Opencv/SeetaFace2/FaceRecognizer/include/seeta/CStream.h \
-  /Users/areay7/Opencv/SeetaFace2/FaceRecognizer/include/seeta/FaceDatabase.h \
-  /Users/areay7/Opencv/SeetaFace2/FaceRecognizer/include/seeta/Stream.h \
-  /Users/areay7/Opencv/SeetaFace2/FaceRecognizer/include/seeta/Struct.h \
-  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/QDebug \
-  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/QObject \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qabstractitemmodel.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qalgorithms.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qanystringview.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qarraydata.h \
@@ -152,10 +134,12 @@
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qline.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qlist.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qlogging.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qmalloc.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qmap.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qmargins.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qmath.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qmetacontainer.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qmetatype.h \
@@ -168,7 +152,9 @@
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs_impl.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qoverload.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qpair.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qpoint.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qrect.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qrefcount.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qscopeguard.h \
@@ -177,6 +163,7 @@
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata_impl.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer_impl.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qsize.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qstring.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qstringalgorithms.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qstringbuilder.h \
@@ -209,115 +196,44 @@
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qtypes.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
-  /usr/local/include/opencv4/opencv2/calib3d.hpp \
-  /usr/local/include/opencv4/opencv2/core.hpp \
-  /usr/local/include/opencv4/opencv2/core/affine.hpp \
-  /usr/local/include/opencv4/opencv2/core/async.hpp \
-  /usr/local/include/opencv4/opencv2/core/base.hpp \
-  /usr/local/include/opencv4/opencv2/core/bufferpool.hpp \
-  /usr/local/include/opencv4/opencv2/core/check.hpp \
-  /usr/local/include/opencv4/opencv2/core/cuda.hpp \
-  /usr/local/include/opencv4/opencv2/core/cuda.inl.hpp \
-  /usr/local/include/opencv4/opencv2/core/cuda_types.hpp \
-  /usr/local/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
-  /usr/local/include/opencv4/opencv2/core/cvdef.h \
-  /usr/local/include/opencv4/opencv2/core/cvstd.hpp \
-  /usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp \
-  /usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
-  /usr/local/include/opencv4/opencv2/core/fast_math.hpp \
-  /usr/local/include/opencv4/opencv2/core/hal/interface.h \
-  /usr/local/include/opencv4/opencv2/core/mat.hpp \
-  /usr/local/include/opencv4/opencv2/core/mat.inl.hpp \
-  /usr/local/include/opencv4/opencv2/core/matx.hpp \
-  /usr/local/include/opencv4/opencv2/core/matx.inl.hpp \
-  /usr/local/include/opencv4/opencv2/core/neon_utils.hpp \
-  /usr/local/include/opencv4/opencv2/core/operations.hpp \
-  /usr/local/include/opencv4/opencv2/core/optim.hpp \
-  /usr/local/include/opencv4/opencv2/core/ovx.hpp \
-  /usr/local/include/opencv4/opencv2/core/persistence.hpp \
-  /usr/local/include/opencv4/opencv2/core/saturate.hpp \
-  /usr/local/include/opencv4/opencv2/core/traits.hpp \
-  /usr/local/include/opencv4/opencv2/core/types.hpp \
-  /usr/local/include/opencv4/opencv2/core/utility.hpp \
-  /usr/local/include/opencv4/opencv2/core/utils/logger.defines.hpp \
-  /usr/local/include/opencv4/opencv2/core/utils/logger.hpp \
-  /usr/local/include/opencv4/opencv2/core/utils/logtag.hpp \
-  /usr/local/include/opencv4/opencv2/core/version.hpp \
-  /usr/local/include/opencv4/opencv2/core/vsx_utils.hpp \
-  /usr/local/include/opencv4/opencv2/dnn.hpp \
-  /usr/local/include/opencv4/opencv2/dnn/dict.hpp \
-  /usr/local/include/opencv4/opencv2/dnn/dnn.hpp \
-  /usr/local/include/opencv4/opencv2/dnn/dnn.inl.hpp \
-  /usr/local/include/opencv4/opencv2/dnn/layer.hpp \
-  /usr/local/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
-  /usr/local/include/opencv4/opencv2/dnn/version.hpp \
-  /usr/local/include/opencv4/opencv2/features2d.hpp \
-  /usr/local/include/opencv4/opencv2/flann.hpp \
-  /usr/local/include/opencv4/opencv2/flann/all_indices.h \
-  /usr/local/include/opencv4/opencv2/flann/allocator.h \
-  /usr/local/include/opencv4/opencv2/flann/any.h \
-  /usr/local/include/opencv4/opencv2/flann/autotuned_index.h \
-  /usr/local/include/opencv4/opencv2/flann/composite_index.h \
-  /usr/local/include/opencv4/opencv2/flann/config.h \
-  /usr/local/include/opencv4/opencv2/flann/defines.h \
-  /usr/local/include/opencv4/opencv2/flann/dist.h \
-  /usr/local/include/opencv4/opencv2/flann/dynamic_bitset.h \
-  /usr/local/include/opencv4/opencv2/flann/flann_base.hpp \
-  /usr/local/include/opencv4/opencv2/flann/general.h \
-  /usr/local/include/opencv4/opencv2/flann/ground_truth.h \
-  /usr/local/include/opencv4/opencv2/flann/heap.h \
-  /usr/local/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
-  /usr/local/include/opencv4/opencv2/flann/index_testing.h \
-  /usr/local/include/opencv4/opencv2/flann/kdtree_index.h \
-  /usr/local/include/opencv4/opencv2/flann/kdtree_single_index.h \
-  /usr/local/include/opencv4/opencv2/flann/kmeans_index.h \
-  /usr/local/include/opencv4/opencv2/flann/linear_index.h \
-  /usr/local/include/opencv4/opencv2/flann/logger.h \
-  /usr/local/include/opencv4/opencv2/flann/lsh_index.h \
-  /usr/local/include/opencv4/opencv2/flann/lsh_table.h \
-  /usr/local/include/opencv4/opencv2/flann/matrix.h \
-  /usr/local/include/opencv4/opencv2/flann/miniflann.hpp \
-  /usr/local/include/opencv4/opencv2/flann/nn_index.h \
-  /usr/local/include/opencv4/opencv2/flann/params.h \
-  /usr/local/include/opencv4/opencv2/flann/random.h \
-  /usr/local/include/opencv4/opencv2/flann/result_set.h \
-  /usr/local/include/opencv4/opencv2/flann/sampling.h \
-  /usr/local/include/opencv4/opencv2/flann/saving.h \
-  /usr/local/include/opencv4/opencv2/flann/timer.h \
-  /usr/local/include/opencv4/opencv2/highgui.hpp \
-  /usr/local/include/opencv4/opencv2/imgcodecs.hpp \
-  /usr/local/include/opencv4/opencv2/imgproc.hpp \
-  /usr/local/include/opencv4/opencv2/imgproc/segmentation.hpp \
-  /usr/local/include/opencv4/opencv2/ml.hpp \
-  /usr/local/include/opencv4/opencv2/ml/ml.inl.hpp \
-  /usr/local/include/opencv4/opencv2/objdetect.hpp \
-  /usr/local/include/opencv4/opencv2/objdetect/aruco_board.hpp \
-  /usr/local/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
-  /usr/local/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
-  /usr/local/include/opencv4/opencv2/objdetect/barcode.hpp \
-  /usr/local/include/opencv4/opencv2/objdetect/charuco_detector.hpp \
-  /usr/local/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
-  /usr/local/include/opencv4/opencv2/objdetect/face.hpp \
-  /usr/local/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp \
-  /usr/local/include/opencv4/opencv2/opencv.hpp \
-  /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
-  /usr/local/include/opencv4/opencv2/photo.hpp \
-  /usr/local/include/opencv4/opencv2/stitching.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/detail/blenders.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/detail/camera.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/detail/matchers.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/detail/seam_finders.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/detail/util.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/detail/util_inl.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/detail/warpers.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/warpers.hpp \
-  /usr/local/include/opencv4/opencv2/video.hpp \
-  /usr/local/include/opencv4/opencv2/video/background_segm.hpp \
-  /usr/local/include/opencv4/opencv2/video/tracking.hpp \
-  /usr/local/include/opencv4/opencv2/videoio.hpp
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qbrush.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qcolor.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qcursor.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qfont.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qfontinfo.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qfontmetrics.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qicon.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qimage.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qpolygon.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qregion.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qrgb.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework/Versions/A/Headers/QSqlTableModel \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework/Versions/A/Headers/qsqldatabase.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework/Versions/A/Headers/qsqlquerymodel.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework/Versions/A/Headers/qsqltablemodel.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework/Versions/A/Headers/qtsql-config.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework/Versions/A/Headers/qtsqlexports.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework/Versions/A/Headers/qtsqlglobal.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h

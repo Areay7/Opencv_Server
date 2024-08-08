@@ -108,6 +108,7 @@
   /Users/areay7/Opencv/SeetaFace2/FaceRecognizer/include/seeta/FaceDatabase.h \
   /Users/areay7/Opencv/SeetaFace2/FaceRecognizer/include/seeta/Stream.h \
   /Users/areay7/Opencv/SeetaFace2/FaceRecognizer/include/seeta/Struct.h \
+  /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/QDebug \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/QObject \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
   /Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \

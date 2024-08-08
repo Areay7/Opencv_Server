@@ -8,6 +8,7 @@
 #include <QMessageBox>
 #include <opencv2/opencv.hpp>
 
+#include <QDebug>
 #include "QFaceObject.h"
 
 using namespace cv;

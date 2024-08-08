@@ -142,6 +142,7 @@ Opencv_Server_autogen/timestamp: \
 	/Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/QDateTime \
 	/Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/QDebug \
 	/Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/QObject \
+	/Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/QThread \
 	/Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
 	/Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
 	/Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qabstractitemmodel.h \
@@ -173,8 +174,10 @@ Opencv_Server_autogen/timestamp: \
 	/Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h \
 	/Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
 	/Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qdatetime.h \
+	/Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qdeadlinetimer.h \
 	/Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
 	/Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qdir.h \
+	/Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qelapsedtimer.h \
 	/Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h \
 	/Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qfile.h \
 	/Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qfiledevice.h \
@@ -244,6 +247,7 @@ Opencv_Server_autogen/timestamp: \
 	/Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qtdeprecationmarkers.h \
 	/Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h \
 	/Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h \
+	/Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qthread.h \
 	/Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h \
 	/Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qtnoop.h \
 	/Users/areay7/Qt/6.5.3/macos/lib/QtCore.framework/Versions/A/Headers/qtpreprocessorsupport.h \
@@ -293,9 +297,13 @@ Opencv_Server_autogen/timestamp: \
 	/Users/areay7/Qt/6.5.3/macos/lib/QtNetwork.framework/Versions/A/Headers/qtnetwork-config.h \
 	/Users/areay7/Qt/6.5.3/macos/lib/QtNetwork.framework/Versions/A/Headers/qtnetworkexports.h \
 	/Users/areay7/Qt/6.5.3/macos/lib/QtNetwork.framework/Versions/A/Headers/qtnetworkglobal.h \
+	/Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework/Versions/A/Headers/QSqlError \
+	/Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework/Versions/A/Headers/QSqlQuery \
 	/Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework/Versions/A/Headers/QSqlRecord \
 	/Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework/Versions/A/Headers/QSqlTableModel \
 	/Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework/Versions/A/Headers/qsqldatabase.h \
+	/Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework/Versions/A/Headers/qsqlerror.h \
+	/Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework/Versions/A/Headers/qsqlquery.h \
 	/Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework/Versions/A/Headers/qsqlquerymodel.h \
 	/Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework/Versions/A/Headers/qsqlrecord.h \
 	/Users/areay7/Qt/6.5.3/macos/lib/QtSql.framework/Versions/A/Headers/qsqltablemodel.h \
@@ -578,6 +586,8 @@ Opencv_Server_autogen/timestamp: \
 	/Users/areay7/QtCode/Qt_Sql/Opencv_Server/qfaceobject.h \
 	/Users/areay7/QtCode/Qt_Sql/Opencv_Server/registerwin.cpp \
 	/Users/areay7/QtCode/Qt_Sql/Opencv_Server/registerwin.h \
+	/Users/areay7/QtCode/Qt_Sql/Opencv_Server/selectwin.cpp \
+	/Users/areay7/QtCode/Qt_Sql/Opencv_Server/selectwin.h \
 	/usr/local/include/opencv4/opencv2/calib3d.hpp \
 	/usr/local/include/opencv4/opencv2/core.hpp \
 	/usr/local/include/opencv4/opencv2/core/affine.hpp \
@@ -693,4 +703,5 @@ Opencv_Server_autogen/timestamp: \
 	/usr/local/lib/cmake/opencv4/OpenCVModules.cmake \
 	/Users/areay7/QtCode/Qt_Sql/Opencv_Server/mainwindow.ui \
 	/Users/areay7/QtCode/Qt_Sql/Opencv_Server/registerwin.ui \
+	/Users/areay7/QtCode/Qt_Sql/Opencv_Server/selectwin.ui \
 	/Applications/CMake.app/Contents/bin/cmake

@@ -2,3 +2,4 @@
 #include "EWIEGA46WW/moc_mainwindow.cpp"
 #include "EWIEGA46WW/moc_qfaceobject.cpp"
 #include "EWIEGA46WW/moc_registerwin.cpp"
+#include "EWIEGA46WW/moc_selectwin.cpp"

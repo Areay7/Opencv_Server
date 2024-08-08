@@ -5,15 +5,23 @@
 #include <QSqlError>
 #include <QSqlQuery>
 #include <QDebug>
+#include <opencv2/opencv.hpp>
 
 #include "registerwin.h"
+#include "selectwin.h"
+
+using namespace cv;
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
 
-    RegisterWin ww;
-    ww.show();
+    qRegisterMetaType<Mat>("Mat&");
+    qRegisterMetaType<Mat>("Mat");
+    qRegisterMetaType<int64_t>("int64_t");
+
+    // RegisterWin ww;
+    // ww.show();
 
     // 数据库
     QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
@@ -61,7 +69,12 @@ int main(int argc, char *argv[])
         return -1;
     }
 
+    // SelectWin s;
+    // s.show();
+
     MainWindow w;
     w.show();
+
+
     return a.exec();
 }

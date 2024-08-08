@@ -16,6 +16,16 @@ MainWindow::MainWindow(QWidget *parent)
     // 给 sql 模型绑定表格
     model.setTable("employee");
 
+    // 创建一个线程
+    QThread *thread = new QThread();
+    // 把 QFaceObject 对象移动到线程中执行
+    fobj.moveToThread(thread);
+    // 启动线程
+    thread->start();
+
+    connect(this, &MainWindow::query, &fobj, &QFaceObject::face_query);
+    // 关联 QFaceObject 对象里面的 send_faceid 信号
+    connect(&fobj, &QFaceObject::send_faceid, this, &MainWindow::recv_faceid);
 }
 
 MainWindow::~MainWindow()
@@ -50,7 +60,7 @@ void MainWindow::read_data()
         // 数据还没发送完成，返回继续等待
     if(msocket->bytesAvailable() < bsize)
     {
-        qDebug() << "bsize 1 : " << bsize;
+        // qDebug() << "bsize 1 : " << bsize;
         return;
     }
 
@@ -63,7 +73,7 @@ void MainWindow::read_data()
         return;
     }
 
-    qDebug() << "bsize 2 : " << bsize;
+    // qDebug() << "bsize 2 : " << bsize;
 
     // 显示图片
     QPixmap mmp;
@@ -78,12 +88,26 @@ void MainWindow::read_data()
     memcpy(decode.data(), data.data(), data.size());
 
     faceImage = imdecode(decode, IMREAD_COLOR);
-    int faceid = fobj.face_query(faceImage);
 
-    // qDebug() << "faceid : " << faceid;
+    // int faceid = fobj.face_query(faceImage);
+    emit query(faceImage);
+}
+
+void MainWindow::recv_faceid(int64_t faceid)
+{
+    qDebug() << "识别到的 faceid : " << faceid;
 
     // 从数据库中查询 faceid
     // 给模型设置过滤器
+
+    if(faceid < 0)
+    {
+        QString sdmsg = "{\"EmployeeID\":\"\", \"name\":\"\", \"department\":\"\", \"time\":\"\"}";
+        // 把打包好的数据发送给客户端
+        msocket->write(sdmsg.toUtf8());
+        return;
+    }
+
     model.setFilter(QString("FaceID=%1").arg(faceid));
     // 查询
     model.select();
@@ -97,10 +121,21 @@ void MainWindow::read_data()
                             .arg(record.value("EmployeeID").toString()).arg(record.value("name").toString())
                             .arg(QDateTime::currentDateTime().toString("yyyy-MM-dd hh:mm:ss"));
 
-        // 把打包好的数据发送给客户端
-        msocket->write(sdmsg.toUtf8());
-
         // 把数据写入数据库 - 考勤表
+        QString insertSql = QString("insert into attendance(EmployeeID) value('%1')").arg(record.value("EmployeeID").toString());
+        QSqlQuery query;
+        if(!query.exec(insertSql))
+        {
+            QString sdmsg = "{\"EmployeeID\":\"\", \"name\":\"\", \"department\":\"\", \"time\":\"\"}";
+            // 把打包好的数据发送给客户端
+            msocket->write(sdmsg.toUtf8());
+            qDebug() << "query error : " << query.lastError().text();
+            return;
+        }
+        else
+        {
+            // 把打包好的数据发送给客户端
+            msocket->write(sdmsg.toUtf8());
+        }
     }
-
 }

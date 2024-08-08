@@ -16,7 +16,6 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets Network Sql)
 find_package(OpenCV REQUIRED)
 
 # Include directories for SeetaFace2
-# Include directories for SeetaFace2
 include_directories(
     /Users/areay7/Opencv/SeetaFace2/FaceDetector/include
     /Users/areay7/Opencv/SeetaFace2/FaceLandmarker/include
@@ -46,6 +45,17 @@ set(PROJECT_SOURCES
     mainwindow.ui
     qfaceobject.h
     qfaceobject.cpp
+    registerwin.h
+    registerwin.cpp
+    registerwin.ui
+    selectwin.h
+    selectwin.cpp
+    selectwin.ui
+)
+
+
+INCLUDE_DIRECTORIES(
+    ${PROJECT_SOURCE_DIR}
 )
 
 # 设置 Info.plist 文件路径
@@ -55,7 +65,6 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Opencv_Server
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-        registerwin.h registerwin.cpp registerwin.ui
     )
 else()
     if(ANDROID)

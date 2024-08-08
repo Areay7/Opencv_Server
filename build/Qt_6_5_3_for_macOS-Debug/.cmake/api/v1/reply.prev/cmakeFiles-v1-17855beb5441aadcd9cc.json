@@ -1629,8 +1629,7 @@
 			"path" : "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/GNUInstallDirs.cmake"
 		},
 		{
-			"isExternal" : true,
-			"path" : "/Users/areay7/Qt/6.5.3/macos/lib/cmake/Qt6/macos/MacOSXBundleInfo.plist.in"
+			"path" : "Info.plist.in"
 		}
 	],
 	"kind" : "cmakeFiles",

@@ -4,6 +4,7 @@
 #include <QObject>
 #include <seeta/FaceEngine.h>
 #include <opencv2/opencv.hpp>
+#include <QDebug>
 
 using namespace cv;
 
@@ -18,6 +19,9 @@ public:
 public slots:
     int64_t face_register(Mat& faceimage);
     int face_query(Mat& faceImage);
+
+signals:
+    void send_faceid(int64_t faceid);
 
 signals:
 
